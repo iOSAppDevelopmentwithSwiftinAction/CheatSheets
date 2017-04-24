@@ -81,7 +81,7 @@ func getSquareArea(w:Int? = nil)->Int {
     return(w * w)
 }
 //: ### Ternary conditional operator
-print("Width is \(w != nil ? w : 0)")
+print("Width is \(w != nil ? w! : 0)")
 //: ### Nil coalescing operator
 print("Width is \(w ?? 0)")
 //: ### Implicitly unwrapped optionals
